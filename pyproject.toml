@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "array_shift"
+name = "data_structures_and_algorithms"
 version = "0.1.0"
 description = ""
 authors = ["Hamza-Rashed <hamzarashed503@gmail.com>"]
@@ -9,7 +9,6 @@ python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-rope = "^0.18.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

@@ -1,9 +1,4 @@
-from array_shift import __version__
-from array_shift.array_shift import insertShiftArray
-
-
-def test_version():
-    assert __version__ == '0.1.0'
+from data_structures_and_algorithms.challenges.array_shift.array_shift import insertShiftArray
 
 def test_insertShiftArray():
     actual = insertShiftArray([1,2,3,5,6],4)
