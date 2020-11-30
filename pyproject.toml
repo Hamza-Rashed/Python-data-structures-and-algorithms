@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "array_reverse"
+name = "data_structures_and_algorithms"
 version = "0.1.0"
 description = ""
 authors = ["Hamza-Rashed <hamzarashed503@gmail.com>"]
