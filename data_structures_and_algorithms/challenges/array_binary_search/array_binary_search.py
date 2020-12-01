@@ -1,13 +1,15 @@
-def BinarySearch(arr_num, add_val):
-      left = 0 # start from 0
-      right = (len(arr_num)-1) # last index from the list
+def BinarySearch(sequence, item):
+    begin_index = 0
+    end_index = len(sequence) - 1
+    while begin_index <= end_index:
+        midpoint = begin_index + (end_index - begin_index) // 2
+        midpoint_value = sequence[midpoint]
+        if midpoint_value == item:
+            return midpoint
+        elif item < midpoint_value:
+            end_index = midpoint - 1
+        else:
+            begin_index = midpoint + 1
+    return -1
 
-      while left <= right:
-          middle = left + (right) + 1 // 2
-          if add_val == arr_num[middle]:
-              return middle
-          elif add_val < arr_num[middle]:
-              right = middle - 1
-          else:
-              left = middle + 1
-      return -1
+
