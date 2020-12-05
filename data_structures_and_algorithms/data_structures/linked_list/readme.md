@@ -6,4 +6,6 @@
 * name.include(data) searching inside the linked list for your data and return boolian..
 * name.__str__() retruning the linked list nodes by specifec format '{ a } -> { b } -> NULL'
 
+[PR](https://github.com/Hamza-Rashed/Python-data-structures-and-algorithms/pull/8)
+
 
