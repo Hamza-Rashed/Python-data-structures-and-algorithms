@@ -75,9 +75,9 @@ class LinkedList():
             while current:
                 if current.next != None:
                     if current.data == data:
-                        o = current.next
+                        next_d = current.next
                         current.next = node_n
-                        node_n.next = o
+                        node_n.next = next_d
                         return newVal
                     else:
                         current = current.next
@@ -99,9 +99,9 @@ class LinkedList():
                     return "done!"
                 current = current.next
 if __name__ == '__main__':
-    mainll = LinkedList()
-    mainll.insert(1)
-    mainll.insert(6)
-    mainll.insert(9)
-    print(mainll.includes(5))
-    print(mainll)
+    free_all = LinkedList()
+    free_all.insert(1)
+    free_all.insert(6)
+    free_all.insert(9)
+    print(free_all.includes(5))
+    print(free_all)
