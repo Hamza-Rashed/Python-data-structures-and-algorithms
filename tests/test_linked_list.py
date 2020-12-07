@@ -86,3 +86,34 @@ def test_delete_node():
     assert linked_lii.__str__() == '{3} -> {2} -> {6} -> {9} -> NULL'
     linked_lii.delete_value(2)
     assert linked_lii.__str__() == '{3} -> {6} -> {9} -> NULL'
+
+
+
+def test_kthFromEnd_length_greater():
+    current = linked_lii.head
+    length = 0
+    while current:
+        length += 1
+        current = current.next
+    linked_lii.kthFromEnd(6)
+    assert 6 > length
+
+
+def test_kthFromEnd_same_length():
+    current = linked_lii.head
+    length = 0
+    while current:
+        length += 1
+        current = current.next
+    linked_lii.kthFromEnd(3)
+    assert 3 == length
+
+
+def test_kthFromEnd_notPositive_int():
+    assert linked_lii.kthFromEnd(-3) == None
+
+
+def test_kthFromEnd_some_where():
+    linked_lii.delete_value(3)
+    linked_lii.delete_value(6)
+    assert linked_lii.kthFromEnd(0) == 9
