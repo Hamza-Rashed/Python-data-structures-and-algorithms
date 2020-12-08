@@ -98,6 +98,26 @@ class LinkedList():
                     current.next = current.next.next
                     return "done!"
                 current = current.next
+
+
+    def kthFromEnd(self, k):
+        try:  
+            num = -1
+            current = self.head
+            while current:
+                current = current.next
+                num += 1
+            if num >= k:
+                current = self.head
+                for i in range(num - k):
+                    current = current.next
+
+            return current.data
+        except Exception as error:
+            print(f'there is an error {error}')
+
+
+    
 if __name__ == '__main__':
     mainll = LinkedList()
     mainll.insert(1)
