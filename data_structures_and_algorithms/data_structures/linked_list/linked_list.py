@@ -98,7 +98,7 @@ class LinkedList():
                     current.next = current.next.next
                     return "done!"
                 current = current.next
-                       
+
     def kthFromEnd(self, k):
         try:  
             num = -1
@@ -114,8 +114,7 @@ class LinkedList():
             return current.data
         except Exception as error:
             print(f'there is an error {error}')
-                       
-                       
+
 if __name__ == '__main__':
     mainll = LinkedList()
     mainll.insert(1)
