@@ -73,6 +73,27 @@ class BinaryTree:
         arr.append(node.data)
         return arr
 
+    def find_maximum_value(self):
+        data_queue = Queue()
+
+        if not self._root:
+            return None
+
+        max_value = self._root.data
+        data_queue.enqueue(self._root)
+
+        while not data_queue.is_empty():
+            node_front = data_queue.dequeue()
+
+            max_value = max(max_value, node_front.data)
+
+            if node_front.left:
+                data_queue.enqueue(node_front.left)
+            if node_front.right:
+                data_queue.enqueue(node_front.right)
+
+        return max_value
+
 class BinarySearchTree(BinaryTree):
     def add(self, data):
         node = Node(data)
