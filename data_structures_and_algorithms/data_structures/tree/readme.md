@@ -19,6 +19,6 @@ BinarySearchTree(BinaryTree):
 * Can successfully return a collection from an inorder traversal
 * Can successfully return a collection from a postorder traversal
 
-![]()
+![](https://raw.githubusercontent.com/Hamza-Rashed/Python-data-structures-and-algorithms/main/asset/tree.jpeg)
 
 [PR](https://github.com/Hamza-Rashed/Python-data-structures-and-algorithms/pull/17)
