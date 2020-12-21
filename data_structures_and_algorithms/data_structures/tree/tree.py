@@ -94,6 +94,21 @@ class BinaryTree:
 
         return max_value
 
+    def breadthFirst(self,root):
+        result, done = [], []
+        
+        if root:
+            done.append(root)
+        while len(done) > 0:
+            current = done.pop(0)
+            result.append(current.data)
+            if current.left:
+                done.append(current.left)
+            if current.right:
+                done.append(current.right)
+                
+        return result
+
 class BinarySearchTree(BinaryTree):
     def add(self, data):
         node = Node(data)
