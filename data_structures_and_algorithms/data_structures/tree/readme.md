@@ -1,5 +1,4 @@
 # Tree
-
 BinaryTree():
 
 .pre_order() - BinaryTree method to return an array of trre values in "pre-order" order
@@ -45,12 +44,4 @@ Time Big O(n) Space Big O(n)
 ![](https://raw.githubusercontent.com/Hamza-Rashed/Python-data-structures-and-algorithms/main/asset/%D9%A2%D9%A0%D9%A2%D9%A0%D9%A1%D9%A2%D9%A2%D9%A1_%D9%A2%D9%A0%D9%A1%D9%A1%D9%A5%D9%A8%5B1%5D.jpg)
 
 [PR](https://github.com/Hamza-Rashed/Python-data-structures-and-algorithms/pull/19)
-
-
-
-
-
-
-
-
 
