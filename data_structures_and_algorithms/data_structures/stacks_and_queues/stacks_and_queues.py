@@ -31,7 +31,6 @@ class Stack:
             return False
         return True
 
-
 class Queue:
     def __init__(self):
         self.front = None
