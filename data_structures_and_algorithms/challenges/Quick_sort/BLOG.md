@@ -34,5 +34,11 @@ ALGORITHM Swap(arr, i, low)
     arr[low] <-- temp
     
  ``` 
+ 
+# Efficiency
+* Space complexity Big O(log(n))
+* Time complexity Big O(n^2)
+
+
 # Solution : 
 ![](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png)
