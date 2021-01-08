@@ -5,3 +5,10 @@ Review the pseudocode below, then trace the algorithm by stepping through the pr
 
 Once you are done with your article, code a working, tested implementation of Merge Sort based on the pseudocode provided.
 
+## Efficiency
+* Space complexity Big O(n)
+* Time complexity Big O(nLogn)
+
+## Solution : 
+
+![](https://cdn.programiz.com/sites/tutorial2program/files/merge-sort-example_0.png)
