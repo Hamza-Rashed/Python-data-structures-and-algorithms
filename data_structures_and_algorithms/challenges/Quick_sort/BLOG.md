@@ -2,7 +2,7 @@
 Quick Sort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted 
 
 # Pseudo Code
-ALGORITHM QuickSort(arr, left, right)
+``` ALGORITHM QuickSort(arr, left, right)
     if left < right
         // Partition the array by setting the position of the pivot value 
         DEFINE position <-- Partition(arr, left, right)
@@ -31,8 +31,8 @@ ALGORITHM Swap(arr, i, low)
     DEFINE temp;
     temp <-- arr[i]
     arr[i] <-- arr[low]
-    arr[low] <-- temp
+    arr[low] <-- temp ``` 
     
-    
+ ``` 
 # Solution : 
 ![](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png)
