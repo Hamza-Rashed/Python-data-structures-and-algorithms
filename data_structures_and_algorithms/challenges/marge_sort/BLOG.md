@@ -42,11 +42,6 @@ ALGORITHM Merge(left, right, arr)
        
        
 # Efficiency
-Space complexity Big O(n)
-Time complexity Big O(nLogn)
-       
- 
-       
-       
-       
+* Space complexity Big O(n)
+* Time complexity Big O(nLogn)
        
