@@ -31,7 +31,7 @@ ALGORITHM Swap(arr, i, low)
     DEFINE temp;
     temp <-- arr[i]
     arr[i] <-- arr[low]
-    arr[low] <-- temp ``` 
+    arr[low] <-- temp
     
  ``` 
 # Solution : 
