@@ -18,4 +18,4 @@ Avoid utilizing any of the library methods available to your language.
 # Big O(n log n)
 
 # Solution 
-![]()
+![](https://raw.githubusercontent.com/Hamza-Rashed/Python-data-structures-and-algorithms/main/asset/left_join.png)
