@@ -3,8 +3,8 @@ from data_structures_and_algorithms.data_structures.tree.tree import BinarySearc
 def tree_intersection(tree1, tree2):
 
     result = []
-    first = tree1.breadth_first_traversal()
-    second = tree2.breadth_first_traversal()
+    first = tree1.pre_order()
+    second = tree2.pre_order()
     for x in range(len(first)):
         if first[x] == second[x]:
             result.append(first[x])
